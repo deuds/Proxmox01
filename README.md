@@ -35,7 +35,11 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
        - ajout du disque de 130Go pour le stockage
 2. Creation du serveur de Backup sous l'OS Proxmox Backup Serveur
    1. Configuration materielle
-        - 
+       - 2 vCPU
+       - 2 Go de vRAM
+       - 16 Go de vDisk System
+       - 32 Go de vDisk de Stockage
+       - 1 carte reseau sur vmbr2
 fin
 
    

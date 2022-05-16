@@ -40,6 +40,16 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
        - 16 Go de vDisk System
        - 32 Go de vDisk de Stockage
        - 1 carte reseau sur vmbr2
-fin
+    1. Installation de l'OS Proxmox Backup Server
+       - montage de l'ISO téléchargé
+       - installation sur le disque de 16 Go
+       - ajout du disque de 32Go pour le stockage
+3. Creation de la VM Ubuntu
+   1. Configuraion materielle
+      1. 1 vCPU
+      2. 1 Go de vRAM
+      3.   
+
+  fin
 
    

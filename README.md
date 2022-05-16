@@ -16,6 +16,10 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
 - vmbr1 pour le serveur de données et les deux machines Ubuntu et Zorin
 - vmbr2 pour le serveur de backup et les deux machines Ubuntu et Zorin
 
+<p align="center">
+<img src="/Images/Shema reseaux 1.jpg">
+</p>
+
 ### Etape 3 - Creation des VMs
 
 1. Creation du serveur de Données sous l'OS Open Media Vault
@@ -31,8 +35,7 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
        - ajout du disque de 130Go pour le stockage
 2. Creation du serveur de Backup sous l'OS Proxmox Backup Serveur
    1. Configuration materielle
-   2. 
-
+        - 
 fin
 
    

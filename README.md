@@ -72,6 +72,29 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
   > source d'information : chaine youtube tonton Jo, Vidéo Les Tutos - Proxmox No 7: PBS - Proxmox Backup Server
   > https://youtu.be/Vv_Co_P7c9E
 
+2. Creation de la zone de stockage des backups
+        - Sur Le serveur PBS, création dans Administration/storage d'un nouveau dossier qu'on appelle BKP
+        - il s'ajoute automatiquement au Datastore si on laisse la case cochée
+    ##### => cela crée l'espace de stockage pour les sauvegardes
+3. Création des taches de Backup sur PVE
+        - Sur le serveur Proxmox, dans Datacenter/storage on ajoute un nouveau stockage avec comme type "Proxmox Backup server"
+        - dans Datacenter/Backup on crée la tache de sauvegarde
+        - Choisir le nouveau stockage précédemment créé.
+        - Choisir la fréquence de sauvegarde
+        - Selectionner les VMs à sauvegarder 
+
+> reste a surveiller le bon déroulement des sauvegardes.
+
+Un double clic sur les taches du serveur permet de connaitre le detail du déroulement de celles ci.
+
+That's all Folks
+
+<p align="center">
+<img src="/Images/thats-all-folks.webp">
+</p>
+
+
+
 
   fin
 

@@ -40,16 +40,38 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
        - 16 Go de vDisk System
        - 32 Go de vDisk de Stockage
        - 1 carte reseau sur vmbr2
+       - 1 carte reseau sur vmbr0
     1. Installation de l'OS Proxmox Backup Server
        - montage de l'ISO téléchargé
        - installation sur le disque de 16 Go
        - ajout du disque de 32Go pour le stockage
 3. Creation de la VM Ubuntu
    1. Configuraion materielle
-      1. 1 vCPU
-      2. 1 Go de vRAM
-      3.   
+      - 1 vCPU
+      - 1 Go de vRAM
+      - 16 Go de vDisk System
+      - 1 carte reseau sur vmbr2
+      - 1 carte reseau sur vmbr1
+    1. Installation de l'OS Ubuntu 22.04
+      - montage de l'ISO téléchargé
+      - installation sur le disque de 16 Go
+4. Creation de la VM Zorin
+   1. Configuraion materielle
+      - 1 vCPU
+      - 1 Go de vRAM
+      - 32 Go de vDisk System
+      - 1 carte reseau sur vmbr2
+      - 1 carte reseau sur vmbr1
+    1. Installation de l'OS Zorin 16.0
+      - montage de l'ISO téléchargé
+      - installation sur le disque de 16 Go
 
+### Creatiion des backups
+    1. Configuration du serveur de Backups
+   > source d'information : chaine youtube tonton Jo, Vidéo Les Tutos - Proxmox No 7: PBS - Proxmox Backup Server
+   > https://youtu.be/Vv_Co_P7c9E
+
+   
   fin
 
    

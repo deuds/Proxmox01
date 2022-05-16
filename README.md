@@ -16,3 +16,13 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
 - vmbr1 pour le serveur de données et les deux machines Ubuntu et Zorin
 - vmbr2 pour le serveur de backup et les deux machines Ubuntu et Zorin
 
+### Etape 3 - Creation des VMs
+
+1. Creation du serveur de Données sous l'OS Open Media Vault :
+    1. Configuaration materiel :
+    - 2 vCPU
+    - 2 Go de vRAM
+    - 8 Go de vDisk System
+    - 130 Go de vDisk de Stockage
+    - 1 carte reseau sur vmbr1
+    2. 

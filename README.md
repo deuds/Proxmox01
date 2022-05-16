@@ -25,4 +25,4 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
     - 8 Go de vDisk System
     - 130 Go de vDisk de Stockage
     - 1 carte reseau sur vmbr1
-    2. 
+    2. Installation de l'OS :

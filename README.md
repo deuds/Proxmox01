@@ -19,7 +19,7 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
 ### Etape 3 - Creation des VMs
 
 1. Creation du serveur de Données sous l'OS Open Media Vault
-    1. Configuaration materiel
+    1. Configuaration materielle
        - 2 vCPU
        - 2 Go de vRAM
        - 8 Go de vDisk System
@@ -29,8 +29,9 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
        - montage de l'ISO téléchargé
        - installation sur le disque de 8 Go
        - ajout du disque de 130Go pour le stockage
-2. Creation du serveur de Backup sous Proxmox Backup Serveur
-   1. 
+2. Creation du serveur de Backup sous l'OS Proxmox Backup Serveur
+   1. Configuration materielle
+   2. 
 
 fin
 

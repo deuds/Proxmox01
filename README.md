@@ -68,10 +68,11 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
 
 ### Creatiion des backups
     1. Configuration du serveur de Backups
-   > source d'information : chaine youtube tonton Jo, Vidéo Les Tutos - Proxmox No 7: PBS - Proxmox Backup Server
-   > https://youtu.be/Vv_Co_P7c9E
 
-   
+  > source d'information : chaine youtube tonton Jo, Vidéo Les Tutos - Proxmox No 7: PBS - Proxmox Backup Server
+  > https://youtu.be/Vv_Co_P7c9E
+
+
   fin
 
    

@@ -5,7 +5,7 @@
 ### Etape 1 - installation de l'hyperviseur
 Installation en barre metal de proxmox sur un PC portable
 utilisation du Disque Dur en entier
-IP en DHCP de la seule carte reseau reconnue
+IP en DHCP de la seule carte reseau reconnue, la carte LAN (Wifi non reconnue) => 172.16.22.34
 
 ### Etape 2 - Configuration du reseau de l'hyperviseur
 
@@ -28,7 +28,8 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
        - 2 Go de vRAM
        - 8 Go de vDisk System
        - 130 Go de vDisk de Stockage
-       - 1 carte reseau sur vmbr1
+       - 1 carte reseau sur vmbr1 10.1.1.102
+       - 1 carte reseau sur vmbr0 172.16.22.37
     2. Installation de l'OS Open Media Vault
        - montage de l'ISO téléchargé
        - installation sur le disque de 8 Go
@@ -39,8 +40,8 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
        - 2 Go de vRAM
        - 16 Go de vDisk System
        - 32 Go de vDisk de Stockage
-       - 1 carte reseau sur vmbr2
-       - 1 carte reseau sur vmbr0
+       - 1 carte reseau sur vmbr2 10.2.1.103
+       - 1 carte reseau sur vmbr0 172.16.22.39
     1. Installation de l'OS Proxmox Backup Server
        - montage de l'ISO téléchargé
        - installation sur le disque de 16 Go
@@ -50,8 +51,8 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
       - 1 vCPU
       - 1 Go de vRAM
       - 16 Go de vDisk System
-      - 1 carte reseau sur vmbr2
-      - 1 carte reseau sur vmbr1
+      - 1 carte reseau sur vmbr2 10.2.1.101
+      - 1 carte reseau sur vmbr1 10.1.1.101
     1. Installation de l'OS Ubuntu 22.04
       - montage de l'ISO téléchargé
       - installation sur le disque de 16 Go
@@ -60,8 +61,8 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
       - 1 vCPU
       - 1 Go de vRAM
       - 32 Go de vDisk System
-      - 1 carte reseau sur vmbr2
-      - 1 carte reseau sur vmbr1
+      - 1 carte reseau sur vmbr2 10.2.1.100
+      - 1 carte reseau sur vmbr1 10.1.1.100
     1. Installation de l'OS Zorin 16.0
       - montage de l'ISO téléchargé
       - installation sur le disque de 16 Go

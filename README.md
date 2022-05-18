@@ -31,7 +31,7 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
        - 1 carte reseau sur vmbr1 10.1.1.102
        - 1 carte reseau sur vmbr0 172.16.22.37
     2. Installation de l'OS Open Media Vault
-       - montage de l'ISO téléchargé
+       - montage de l'ISO téléchargé : https://www.openmediavault.org/?page_id=77
        - installation sur le disque de 8 Go
        - ajout du disque de 130Go pour le stockage
 2. Creation du serveur de Backup sous l'OS Proxmox Backup Serveur
@@ -43,7 +43,7 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
        - 1 carte reseau sur vmbr2 10.2.1.103
        - 1 carte reseau sur vmbr0 172.16.22.39
     1. Installation de l'OS Proxmox Backup Server
-       - montage de l'ISO téléchargé
+       - montage de l'ISO téléchargé : https://www.proxmox.com/en/downloads/category/iso-images-pbs
        - installation sur le disque de 16 Go
        - ajout du disque de 32Go pour le stockage
 3. Creation de la VM Ubuntu
@@ -54,7 +54,7 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
       - 1 carte reseau sur vmbr2 10.2.1.101
       - 1 carte reseau sur vmbr1 10.1.1.101
     1. Installation de l'OS Ubuntu 22.04
-      - montage de l'ISO téléchargé
+      - montage de l'ISO téléchargé : https://ubuntu.com/download/desktop/thank-you?version=22.04&architecture=amd64
       - installation sur le disque de 16 Go
 4. Creation de la VM Zorin
    1. Configuraion materielle
@@ -64,7 +64,7 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
       - 1 carte reseau sur vmbr2 10.2.1.100
       - 1 carte reseau sur vmbr1 10.1.1.100
     1. Installation de l'OS Zorin 16.0
-      - montage de l'ISO téléchargé
+      - montage de l'ISO téléchargé : https://zorin.com/os/download/
       - installation sur le disque de 16 Go
 
 ### Creation des backups

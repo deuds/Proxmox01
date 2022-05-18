@@ -13,8 +13,8 @@ IP en DHCP de la seule carte reseau reconnue, la carte LAN (Wifi non reconnue) =
 
 création de deux vSwitch supplémentaires pour isoler les reseaux : 
 
-- vmbr1 pour le serveur de données et les deux machines Ubuntu et Zorin
-- vmbr2 pour le serveur de backup et les deux machines Ubuntu et Zorin
+- vmbr1 pour le serveur de données et les deux machines Ubuntu et Zorin 10.1.1.0/24
+- vmbr2 pour le serveur de backup et les deux machines Ubuntu et Zorin 10.2.1.0/24
 
 <p align="center">
 <img src="/Images/Shema reseaux 1.jpg">
@@ -67,7 +67,7 @@ création de deux vSwitch supplémentaires pour isoler les reseaux :
       - montage de l'ISO téléchargé
       - installation sur le disque de 16 Go
 
-### Creatiion des backups
+### Creation des backups
 1. Configuration du serveur de Backups
 
   > source d'information : chaine youtube tonton Jo, Vidéo Les Tutos - Proxmox No 7: PBS - Proxmox Backup Server
